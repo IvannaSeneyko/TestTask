@@ -1,0 +1,30 @@
+﻿<div class="span6" ng-controller="tasksListController as vm">
+    <style>
+        .has-error {
+            background-color: #19caaf;
+        }
+    </style>
+    <table class="table table-condensed">
+        <thead>
+            <tr>
+                <th style="width:40px;">Task name</th>
+                <th style="width:40px;">Date</th>
+                <th style="width:40px;">Complete</th>
+                <th style="width:40px;"></th>
+                <th style="width:40px;"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="task in vm.tasks" ng-class="{'has-error':vm.isExpired(task)}">
+                <td style="color:#302c2c">{{ task.taskName}}</td>
+                <td style="color:#302c2c">{{vm.formatDate(task)}}</td>
+                <td>
+                    <input type="checkbox" ng-model="task.complete" ng-change="vm.completeTaskModel(task.taskId,task.complete)" />
+                </td>
+                <td><a ng-click="vm.deleteTaskModel(task.taskId)" class="btn btn-small btn-danger">Delete</a></td>
+                <td><a ng-click="vm.editTaskModel(task.taskId)" class="btn btn-small btn-primary">Edit</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <a ng-click="vm.createTaskModel()" class="btn btn-small btn-primary">Save new task</a>
+</div>

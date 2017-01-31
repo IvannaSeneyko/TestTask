@@ -1,0 +1,16 @@
+﻿<div class="span6" ng-controller="taskDetailsController as vm">
+    <h1> Task details</h1>
+    <div class="control-group">
+        <div class="controls">
+            <input class="form-control" type="text" ng-model="vm.task.taskName" placeholder="Task name" />
+            <select class="form-control" ng-model="vm.task.priority">
+                <option ng-repeat="priority in vm.priorities">{{priority}}</option>
+            </select>
+            <input class="form-control" datetime-picker type="text" ng-model="vm.task.date" placeholder="Date" />
+            <textarea class="form-control" ng-model="vm.task.comment" placeholder="Comment" />
+            <a ng-click="vm.cancel()" class="btn btn-small btn-primary">Cancel</a>
+            <a ng-click="vm.updateTaskModel(vm.task)" class="btn btn-small btn-primary">Update task</a>
+        </div>
+    </div>
+</div>
+
