@@ -267,3 +267,4 @@ C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask – копія\Te
 C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask – копія\TestTask\obj\Debug\TestTask.csprojResolveAssemblyReference.cache
 C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask – копія\TestTask\obj\Debug\TestTask.dll
 C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask – копія\TestTask\obj\Debug\TestTask.pdb
+C:\Users\Ivanna\documents\visual studio 2015\Projects\TestTask\TestTask\obj\Debug\TestTask.csprojResolveAssemblyReference.cache

@@ -6,7 +6,7 @@
             <select class="form-control" ng-model="vm.task.priority">
                 <option ng-repeat="priority in vm.priorities">{{priority}}</option>
             </select>
-            <input class="form-control" datetime-picker type="text" ng-model="vm.task.date" placeholder="Date" />
+            <input class="form-control" datetime-picker type="text" ng-model="vm.task.date" placeholder="Due date and time" />
             <textarea class="form-control" ng-model="vm.task.comment" placeholder="Comment" />
             <a ng-click="vm.cancel()" class="btn btn-small btn-primary">Cancel</a>
             <a ng-click="vm.updateTaskModel(vm.task)" class="btn btn-small btn-primary">Update task</a>
