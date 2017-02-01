@@ -87,7 +87,6 @@ C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask\TestTask\bin\Syst
 C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask\TestTask\bin\System.Web.WebPages.Razor.xml
 C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask\TestTask\obj\Debug\TestTask.dll
 C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask\TestTask\obj\Debug\TestTask.pdb
-C:\Users\Ivanna\documents\visual studio 2015\Projects\TestTask\TestTask\obj\Debug\TestTask.csprojResolveAssemblyReference.cache
 C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask\TestTask\bin\antlr.runtime.dll
 C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask\TestTask\bin\DevExpress.Data.v7.1.dll
 C:\Users\Ivanna\Documents\Visual Studio 2015\Projects\TestTask\TestTask\bin\DevExpress.Utils.v7.1.dll
